@@ -1,0 +1,61 @@
+@media(min-width:320px){
+
+    .card-col2{
+        width:100%;
+    }
+    .card-col3{
+        width: 100%;
+       
+    }
+    .card-row{
+        width: 90%;
+        margin: auto;
+      
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media(min-width:660px){
+   
+    .card-col2{
+        width:100%;
+    }
+    .card-col3{
+        width: 100%;
+       
+    }
+    .card-row{
+        width: 90%;
+        margin: auto;
+       
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media(min-width:960px){
+    .card-row{
+        width: 90%;
+        margin: auto;
+       
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .card-col3{
+        width: 50%;
+       
+       
+    }
+    .card-col2{
+        width: 50%;
+        display: flex;
+        
+    } 
+    .card-col2 button{
+        padding: 15px 70px;
+    }   
+}
